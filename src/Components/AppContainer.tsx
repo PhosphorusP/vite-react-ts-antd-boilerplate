@@ -16,6 +16,7 @@ export const AppContainer = ({ children }: { children?: ReactNode }) => {
         display: "flex",
         flexDirection: "column",
         overflowY: "scroll",
+        backgroundColor: token.colorBgLayout,
       }}
       children={children}
     />
