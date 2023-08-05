@@ -14,7 +14,7 @@ export const AppContainer = ({ children }: { children?: ReactNode }) => {
         boxSizing: "border-box",
         padding: `${token.paddingContentVertical}px ${token.paddingContentHorizontal}px`,
         display: "flex",
-        flexFlow: "column none",
+        flexFlow: "column nowrap",
         overflowY: "scroll",
         backgroundColor: token.colorBgLayout,
       }}
